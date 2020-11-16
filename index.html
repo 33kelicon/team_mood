@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>이문냥이 입양프로젝트(고양이 소개)</title>
+	<style type="text/css">
+		h2{margin:0; padding: 0; text-align: center;}
+		section{color:white;width: 800px;height: 600px;margin: auto;
+			position: relative;}
+			.purple{background: #F5D6FF;}
+			.green{background: lightgreen}
+			
+			
+			#mood2{width: 300px;position: absolute;left: 100px;top: -300px;z-index: 5;animation: rr3d 3s infinite linear;}
+			
+			.perspective{perspective: 400px;z-index: 10;}
+			.bg{background: url(1.jpg);background-attachment: fixed;background-size: cover;}
+			
+			#mood1{width: 300px;position: absolute;left: 400px;top: 50px;z-index: 3;}
+			#mood6{width: 300px;position: absolute;left: 100px;top: 50px;z-index: 3;}
+			
+			#mood3{width: 400px;position: absolute;left: 100px;top: 150px;z-index: 3;}
+			#mood4{width: 400px;height:300px;position: absolute;left: 50px;top: -850px;z-index: 3;}
+			#mood5{width: 200px;height:300px;position: absolute;left: 400px;top: 100px;z-index: 4;}
+			#font{width: 600px;position: absolute;left: 100px;top: 100px;z-index: 4;}
+			#font2{width: 500px;position: absolute;left: 100px;top: 400px;z-index: 4;}
+
+
+
+
+      @keyframes rr{ to{transform: rotate(360deg);} }
+      @keyframes rr3d{ to{transform: rotate3d(0,1,0,360deg);} }
+      @keyframes rr3d2{ to{transform: rotate3d(0,1,0,360deg);} }
+
+	</style>
+</head>
+<body>
+
+<section class="green">
+	<h2>이문냥이 입양프로젝트</h2>
+	<img src="4.jpg" id="mood1">
+	<img src="8.jpg" id="mood6">
+</section>
+<section class="purple">
+	
+	<img src="cat.png" id="mood2">
+	<img src="5.jpg" id="mood3">
+</section>
+<section class="bg">
+	<img src="2.jpg" id="mood4">
+	<img src="6.jpg" id="mood5">
+</section>
+<section class="green">
+	<h2>font</h2>
+	<h2>1. 빙그레 싸만코체/ 2. 쿠키런 데브시스터즈</h2>
+	<img src="font.png" id="font">
+	
+	<img src="font2.png" id="font2">
+</section>
+
+
+</body>
+</html>
